@@ -11,9 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1821/proprietary/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
     vendor/realme/RMX1821/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
     vendor/realme/RMX1821/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
-    vendor/realme/RMX1821/proprietary/framework/mediatek-ims-extension-plugin.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-extension-plugin.jar \
-    vendor/realme/RMX1821/proprietary/framework/mediatek-ims-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-legacy.jar \
-    vendor/realme/RMX1821/proprietary/framework/mediatek-ims-wwop-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-wwop-common.jar \
     vendor/realme/RMX1821/proprietary/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
     vendor/realme/RMX1821/proprietary/lib/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma.so \
     vendor/realme/RMX1821/proprietary/lib/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_adapt.so \
@@ -42,18 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1821/proprietary/lib64/libmtkshifter.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkshifter.so \
     vendor/realme/RMX1821/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/realme/RMX1821/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
+    vendor/realme/RMX1821/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/realme/RMX1821/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs \
     vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/lib/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdpframework.so \
-    vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/lib64/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdpframework.so \
-    vendor/realme/RMX1821/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/realme/RMX1821/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
-
-PRODUCT_PACKAGES += \
-    ImsService \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common
+    vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/lib64/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdpframework.so
