@@ -44,7 +44,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1821/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
     vendor/realme/RMX1821/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs \
+    vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/etc/dirac/18601/diracmobile.config:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/dirac/18601/diracmobile.config \
+    vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/etc/dirac/18601/diracvdd.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/dirac/18601/diracvdd.bin \
+    vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/etc/diracmobile.config:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/diracmobile.config \
+    vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/etc/diracvdd.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/diracvdd.bin \
+    vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libDiracAPI_SHARED.so \
     vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/lib/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdpframework.so \
+    vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libdirac.so \
     vendor/realme/RMX1821/proprietary/product/vendor_overlay/29/lib64/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdpframework.so
 
 PRODUCT_PACKAGES += \
